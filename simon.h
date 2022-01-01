@@ -19,7 +19,7 @@ int getQuadrantNumber(quadrant current);
 
 /**
  * This function takes in a quadrant and changes the position of the quadrant based
- * on the current position of theh joystick. The quadrant is a pointer to an array, 
+ * on the current position of the joystick. The quadrant is a pointer to an array, 
  * so all modifications persist. xPos and yPos represent the x- and y-positions of the 
  * joystick as mapped from (0, 1023) to (-JOYSTICK_BOUND, JOYSTICK_BOUND). 
  */
